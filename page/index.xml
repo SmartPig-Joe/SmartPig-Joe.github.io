@@ -6,7 +6,7 @@
         <description>Recent content in Pages on SmartPig</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>JiaXuan Zou</copyright>
+        <copyright>JiaXuan Zou (SmartPig)</copyright>
         <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://SmartPig-Joe.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
         <link>https://SmartPig-Joe.github.io/archives/</link>
@@ -21,7 +21,70 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://SmartPig-Joe.github.io/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+        <description>&lt;p&gt;我目前是一名西安交通大学的数学系本科生&lt;/p&gt;
+&lt;h2 id=&#34;为什么选择数学系&#34;&gt;为什么选择数学系
+&lt;/h2&gt;&lt;p&gt;我初二读到了一本书，名叫《深度学习入门：基于Python的理论与实践》&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://SmartPig-Joe.github.io/%E5%85%B3%E4%BA%8E/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5.jpg&#34;
+	width=&#34;268&#34;
+	height=&#34;381&#34;
+	srcset=&#34;https://SmartPig-Joe.github.io/%E5%85%B3%E4%BA%8E/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5_hu16105247273142995566.jpg 480w, https://SmartPig-Joe.github.io/%E5%85%B3%E4%BA%8E/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5_hu14322829453656282049.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;深度学习入门：基于Python的理论与实践&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;168px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;从此爱上人工智能。后面发现自己数学基础不够，于是中考后开始学习同济版的《高等数学》、MIT 18.06线性代数以及《Linear Algebra Done Right》，发现数学更美，所以选择了数学系。&lt;/p&gt;
+&lt;h2 id=&#34;为什么喜欢哲学社科&#34;&gt;为什么喜欢哲学社科
+&lt;/h2&gt;&lt;p&gt;高二时，我因病休假一周，无意间读到了复旦大学王德峰教授的人文演讲录——《寻觅意义》&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://SmartPig-Joe.github.io/%E5%85%B3%E4%BA%8E/%E5%AF%BB%E8%A7%85%E6%84%8F%E4%B9%89.jpg&#34;
+	width=&#34;180&#34;
+	height=&#34;240&#34;
+	srcset=&#34;https://SmartPig-Joe.github.io/%E5%85%B3%E4%BA%8E/%E5%AF%BB%E8%A7%85%E6%84%8F%E4%B9%89_hu16479731605639914975.jpg 480w, https://SmartPig-Joe.github.io/%E5%85%B3%E4%BA%8E/%E5%AF%BB%E8%A7%85%E6%84%8F%E4%B9%89_hu5778718917272942211.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;寻觅意义&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;以及北京大学戴锦华教授的一次著名的演讲——历史与人民的记忆。&lt;/p&gt;
+
+
+
+
+
+
+    
+
+
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1RY4y1F7pG&#34;
+            scrolling=&#34;no&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;当你第一次开始把你自己的生活，你自己的生命，你自己的梦想和一个更广大的人群联系在一起。&lt;br&gt;
+当你再一次把对你自己的生活，你自己未来的想象和一种历史的可能、一种历史的命运连接在一起。
+当你达成了这样的一个自觉的时候，你从一个普通的百姓，成为了人民中的一员。&lt;/p&gt;
+&lt;p align=&#34;right&#34;&gt;—— 戴锦华&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这些文本毫无疑问地完全推翻了我过去陈旧的价值观、世界观，但也不得不面对随之而来的虚无主义。于是我去阅读了更多的哲学文本，并幸运地通过它们重新建构起了人生的意义。从那以后，哲学——如同数学——成为了我生命中不可或缺的一部分。&lt;/p&gt;
+&lt;p&gt;数学和人工智能是我所热爱的领域，它们总能让我保持着一种躁动不安的、昂扬向上的生命状态。而哲学则可以抚平我的浮躁，让我时刻保持对自身和对世界的思考，我喜欢思考，我认为思考是一种生命状态，我把它比作思想的散步。&lt;/p&gt;
+&lt;h2 id=&#34;为什么建设这个博客&#34;&gt;为什么建设这个博客
+&lt;/h2&gt;&lt;p&gt;为了记录&lt;/p&gt;
 </description>
         </item>
         <item>
