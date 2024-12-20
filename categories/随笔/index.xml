@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>随笔 on SmartPig</title>
-        <link>http://localhost:1313/categories/test/</link>
+        <link>https://SmartPig-Joe.github.io/categories/%E9%9A%8F%E7%AC%94/</link>
         <description>Recent content in 随笔 on SmartPig</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>JiaXuan Zou (SmartPig)</copyright><atom:link href="http://localhost:1313/categories/test/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>JiaXuan Zou (SmartPig)</copyright><atom:link href="https://SmartPig-Joe.github.io/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
