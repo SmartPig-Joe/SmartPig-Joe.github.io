@@ -27,9 +27,9 @@ author:
   location         : "Guangdong, China"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user="
+  googlescholar    : # "https://scholar.google.com/citations?user="
   email            : "jiaxuanzou@stu.xjtu.edu.cn"
-  researchgate     : "https://www.researchgate.net/profile/Jian-Tang-53"
+  researchgate     : #"https://www.researchgate.net/profile/Jian-Tang-53"
   uri              : 
   bitbucket        :
   codepen          :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/"
+  orcid            : #"https://orcid.org/"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
