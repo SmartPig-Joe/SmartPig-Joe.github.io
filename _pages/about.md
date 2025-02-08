@@ -32,5 +32,3 @@ My research interests include:
 # 🎓 Education
 - *2024.09 - Present*, <a href="https://www.xjtu.edu.cn/"><img class="svg" src="/images/xjtu.svg" width="25pt"></a> Xi'an Jiaotong University, School of Mathematics and Statistics, Xi'an, Shaanxi, Bachelor's Degree
 <span class='anchor' id='-lwzl'></span>
-
-# 📝 Publications and Patents
