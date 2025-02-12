@@ -17,13 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Undergraduate studies at the School of Mathematics and Statistics, Xi'an Jiaotong University.
+I am currently an undergraduate student at the School of Mathematics and Statistics, Xi'an Jiaotong University.
 
 
 My research interests include:
-- Deep learning
+- Deep learning theory
 - Natural language processing
 - AI for science
+- Time series forecasting
 
 
 
