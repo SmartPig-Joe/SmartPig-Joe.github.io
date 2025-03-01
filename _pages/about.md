@@ -27,6 +27,15 @@ My research interests include:
 - Time series forecasting
 
 
+我目前是西安交通大学数学与统计学院的一名本科生。
+
+我的研究兴趣包括：
+- 深度学习理论
+- 自然语言处理
+- AI for science
+- 时间序列建模
+
+
 
 <span class='anchor' id='-xl'></span>
 
