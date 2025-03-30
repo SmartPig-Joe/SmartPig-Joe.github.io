@@ -20,18 +20,19 @@ redirect_from:
 I am currently an undergraduate student at the School of Mathematics and Statistics, Xi'an Jiaotong University.
 
 
-My research interests include:
+My research interests include, but are not limited to:
 - Deep learning theory
-- Natural language processing
+- LLM theory
 - AI for science
 - Time series forecasting
 
 
+
 我目前是西安交通大学数学与统计学院的一名本科生。
 
-我的研究兴趣包括：
+我的研究兴趣包括但不限于：
 - 深度学习理论
-- 自然语言处理
+- 大语言模型机理
 - AI for science
 - 时间序列建模
 
