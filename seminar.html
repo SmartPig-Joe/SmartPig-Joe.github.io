@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Learning Seminar Details</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Favicon links -->
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/android-chrome-192x192.png">
+    <!-- End favicon links -->
+    <script src="js/seminar.js" defer></script>
+    <style>
+        /* Additional Styles for Seminar Details Page */
+        .header-simple {
+            background: #0F4C81;
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .header-simple h1 {
+            font-size: 2.4rem;
+            margin: 0;
+        }
+        
+        .language-toggle {
+            position: fixed;
+            top: 15px;
+            right: 20px;
+            z-index: 1000;
+        }
+        
+        .seminar-details {
+            padding: 30px 0;
+        }
+        
+        .seminar-session {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .seminar-session:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .session-title {
+            font-size: 1.6rem;
+            color: #0F4C81;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .session-info {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+            color: #666;
+        }
+        
+        .session-date, .session-time, .session-location {
+            margin-right: 25px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .session-info i {
+            margin-right: 8px;
+            color: #0F4C81;
+        }
+        
+        .speakers {
+            margin-bottom: 20px;
+        }
+        
+        .speaker {
+            margin-bottom: 15px;
+        }
+        
+        .speaker-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .speaker-topic {
+            font-size: 1.05rem;
+            color: #0F4C81;
+            margin-bottom: 8px;
+        }
+        
+        .topic-description {
+            font-size: 1.05rem;
+            text-align: justify;
+            margin-left: 15px;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 30px;
+            background-color: #0F4C81;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-size: 1.05rem;
+        }
+        
+        .back-btn:hover {
+            background-color: #0A2C4D;
+            transform: translateY(-2px);
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .session-info {
+                flex-direction: column;
+            }
+            
+            .session-date, .session-time, .session-location {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="language-toggle">
+        <button id="language-btn" title="Switch to Chinese">中文</button>
+    </div>
+    
+    <header class="header-simple">
+        <div class="container">
+            <h1 class="page-title">Deep Learning Seminar Series</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="container seminar-details">
+            <a href="index.html#seminar" class="back-btn"><i class="fas fa-arrow-left"></i> <span class="back-text">Back to Home</span></a>
+            
+            <div class="seminar-session" id="session1">
+                <h3 class="session-title">Session 1: <span class="session-topic">Introduction to Deep Learning</span></h3>
+                <div class="session-info">
+                    <div class="session-date"><i class="fas fa-calendar"></i> <span class="date-text">October 13, 2025</span></div>
+                    <div class="session-time"><i class="fas fa-clock"></i> <span class="time-text">9:30 AM - 11:30 AM</span></div>
+                    <div class="session-location"><i class="fas fa-map-marker-alt"></i> <span class="location-text">Xi'an Jiaotong University</span></div>
+                </div>
+                <div class="speakers">
+                    <h4 class="speakers-title">Speakers:</h4>
+                    <div class="speaker">
+                        <div class="speaker-name">Jiaxuan Zou</div>
+                        <div class="speaker-topic"><span class="topic1-title">Introduction to Deep Learning — From Zero to Multilayer Neural Networks</span></div>
+                    </div>
+                    <div class="speaker">
+                        <div class="speaker-name">Yunfeng Liu</div>
+                        <div class="speaker-topic"><span class="topic2-title">Common Optimization Algorithms</span></div>
+                    </div>
+                    <div class="speaker">
+                        <div class="speaker-name">Ruihua Chen</div>
+                        <div class="speaker-topic"><span class="topic3-title">Research Work and Achievements</span></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="seminar-session" id="session2">
+                <h3 class="session-title">Session 2: <span class="session-topic">Language Modeling and Inverse Problems</span></h3>
+                <div class="session-info">
+                    <div class="session-date"><i class="fas fa-calendar"></i> <span class="date-text">October 20, 2025</span></div>
+                    <div class="session-time"><i class="fas fa-clock"></i> <span class="time-text">9:30 AM - 11:30 AM</span></div>
+                    <div class="session-location"><i class="fas fa-map-marker-alt"></i> <span class="location-text">Xi'an Jiaotong University, Building C-206</span></div>
+                </div>
+                <div class="speakers">
+                    <h4 class="speakers-title">Speakers:</h4>
+                    <div class="speaker">
+                        <div class="speaker-name">Jiaxuan Zou</div>
+                        <div class="speaker-topic"><span class="topic1-title">How We Model Language: From Word Embeddings to RNN to LSTM</span></div>
+                        <p class="topic-description"><span class="topic1-desc">How can we model language? From word vectors to RNN to LSTM. What is the fitting ability of RNN? What are its limitations? What motivated the creation of LSTM and GRU? PyTorch implementation of RNN, GRU, and LSTM. What else can be improved?</span></p>
+                    </div>
+                    <div class="speaker">
+                        <div class="speaker-name">Ruihua Chen</div>
+                        <div class="speaker-topic"><span class="topic2-title">Implicit Neural Representation Methods and Applications</span></div>
+                        <p class="topic-description"><span class="topic2-desc">Introduction to Implicit Neural Representation (INR) methods and applications, basic concepts of Physics-informed neural networks, and low-rank tensor function decomposition. Finally, we will explore the application of INR in inverse problems.</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="seminar-session" id="session3">
+                <h3 class="session-title">Session 3: <span class="session-topic">Computer Vision Fundamentals</span></h3>
+                <div class="session-info">
+                    <div class="session-date"><i class="fas fa-calendar"></i> <span class="date-text">October 27, 2025</span></div>
+                    <div class="session-time"><i class="fas fa-clock"></i> <span class="time-text">9:30 AM - 11:30 AM</span></div>
+                    <div class="session-location"><i class="fas fa-map-marker-alt"></i> <span class="location-text">Xi'an Jiaotong University, Building A-204</span></div>
+                </div>
+                <div class="speakers">
+                    <h4 class="speakers-title">Speakers:</h4>
+                    <div class="speaker">
+                        <div class="speaker-name">Yunfeng Liu</div>
+                        <div class="speaker-topic"><span class="topic1-title">Introduction to Computer Vision</span></div>
+                        <p class="topic-description"><span class="topic1-desc">Introduction to the basics of Convolutional Neural Networks (CNN) for beginners, including CNN's hierarchical structure, basic concepts, C++ and Python implementation of convolution operations, and analysis of classic models LeNet and AlexNet. If time permits, we will also discuss how to design lightweight CNN architectures. The seminar will be conducted in an intuitive and easy-to-understand manner, avoiding complex theories, with more focus on animations and examples to facilitate understanding, suitable for beginners interested in CNN and developers who want to quickly learn the basics of CNN.</span></p>
+                    </div>
+                    <div class="speaker">
+                        <div class="speaker-name">Jiaxuan Zou</div>
+                        <div class="speaker-topic"><span class="topic2-title">What Makes Deep Learning Truly "Deep" — Introduction and Understanding of ResNet</span></div>
+                        <p class="topic-description"><span class="topic2-desc">We will start from experimental phenomena to explore the problems that occur when networks deepen, and naturally introduce a new network structure - residual connections. Then we will provide several different perspectives to understand why "residual connections" can succeed, why it is said that it has made today's deep learning flourish, including forward information flow, backward information flow, dynamical systems, and other perspectives.</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="seminar-session" id="session4">
+                <h3 class="session-title">Session 4: <span class="session-topic">Transformers and Beyond</span></h3>
+                <div class="session-info">
+                    <div class="session-date"><i class="fas fa-calendar"></i> <span class="date-text">November 17, 2025</span></div>
+                    <div class="session-time"><i class="fas fa-clock"></i> <span class="time-text">9:30 AM - 11:30 AM</span></div>
+                    <div class="session-location"><i class="fas fa-map-marker-alt"></i> <span class="location-text">Xi'an Jiaotong University, Building B-102</span></div>
+                </div>
+                <div class="speakers">
+                    <h4 class="speakers-title">Speakers:</h4>
+                    <div class="speaker">
+                        <div class="speaker-name">Yining Li</div>
+                        <div class="speaker-topic"><span class="topic1-title">Transformer Models and Their Applications</span></div>
+                        <p class="topic-description"><span class="topic1-desc">We will deeply analyze the Transformer model, from the basic Attention mechanism to its application in the CV field - Vision Transformer (ViT). Discuss how to accelerate computation through Linear Attention, and analyze the role of Softmax. Finally, we will introduce the emerging Mamba model, how it performs on related tasks, is it Mambaout or leading a new trend?</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="seminar-session" id="session5">
+                <h3 class="session-title">Session 5: <span class="session-topic">Neural Network Initialization</span></h3>
+                <div class="session-info">
+                    <div class="session-date"><i class="fas fa-calendar"></i> <span class="date-text">November 24, 2025</span></div>
+                    <div class="session-time"><i class="fas fa-clock"></i> <span class="time-text">10:00 AM - 12:00 PM</span></div>
+                    <div class="session-location"><i class="fas fa-map-marker-alt"></i> <span class="location-text">Online</span></div>
+                </div>
+                <div class="speakers">
+                    <h4 class="speakers-title">Speakers:</h4>
+                    <div class="speaker">
+                        <div class="speaker-name">Jiaxuan Zou</div>
+                        <div class="speaker-topic"><span class="topic1-title">The Impact of Neural Network Initialization — Phase Diagram Analysis, Parameter Condensation, and Loss Landscape Embedding</span></div>
+                        <p class="topic-description"><span class="topic1-desc">How does the size of neural network weight initialization affect the behavior of neural networks? In this session, we will share the research results of Professor Zhiqin Xu's team in this area. "Phase diagram analysis" shows the dynamic characteristics of neural networks under different conditions during training; "Condensation phenomenon" discusses the aggregation effect of neuron weights during the training process, which helps improve generalization capabilities; "Loss landscape embedding principle" explains how wide networks can contain critical points of narrow networks, guiding the model to converge to solutions of low complexity. These contents together deepen the understanding of neural network training and generalization mechanisms.</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="seminar-session" id="session6">
+                <h3 class="session-title">Session 6: <span class="session-topic">Understanding Diffusion Models</span></h3>
+                <div class="session-info">
+                    <div class="session-date"><i class="fas fa-calendar"></i> <span class="date-text">December 1, 2025</span></div>
+                    <div class="session-time"><i class="fas fa-clock"></i> <span class="time-text">9:30 AM - 11:30 AM</span></div>
+                    <div class="session-location"><i class="fas fa-map-marker-alt"></i> <span class="location-text">Xi'an Jiaotong University</span></div>
+                </div>
+                <div class="speakers">
+                    <h4 class="speakers-title">Speakers:</h4>
+                    <div class="speaker">
+                        <div class="speaker-name">Jingsong Sun</div>
+                        <div class="speaker-topic"><span class="topic1-title">Understanding Diffusion Models</span></div>
+                        <p class="topic-description"><span class="topic1-desc">This sharing will deeply explore and derive the mathematical principles of diffusion models from multiple perspectives, focusing on analyzing how DDPM (Denoising Diffusion Probabilistic Models), Score-Matching, Stochastic Differential Equations (SDE), Ordinary Differential Equations (ODE), and other methods help us understand the intrinsic mechanisms of the diffusion process. At the end of the sharing, we will explore physical equations related to diffusion models, especially the Fokker-Planck equation and Langevin equation, analyzing how they describe the diffusion process and its relationship with thermodynamic systems in physics. Through these equations, we will further deepen our understanding of the theoretical foundation of the diffusion process. We will also discuss the latest research directions of diffusion models, as well as questions about diffusion.</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="index.html#seminar" class="back-btn"><i class="fas fa-arrow-left"></i> <span class="back-text">Back to Home</span></a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="footer-text">&copy; 2025 Deep Learning Seminar. Last Updated: April 6, 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
