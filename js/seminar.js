@@ -25,27 +25,27 @@ document.addEventListener('DOMContentLoaded', function() {
             'session5Topic': 'Neural Network Initialization',
             'session6Topic': 'Understanding Diffusion Models',
             // 时间和地点
-            'session1Date': 'October 13, 2025',
+            'session1Date': 'October 13, 2024',
             'session1Time': '9:30 AM - 11:30 AM',
             'session1Location': 'Xi\'an Jiaotong University',
             
-            'session2Date': 'October 20, 2025',
+            'session2Date': 'October 20, 2024',
             'session2Time': '9:30 AM - 11:30 AM',
             'session2Location': 'Xi\'an Jiaotong University, Building C-206',
             
-            'session3Date': 'October 27, 2025',
+            'session3Date': 'October 27, 2024',
             'session3Time': '9:30 AM - 11:30 AM',
             'session3Location': 'Xi\'an Jiaotong University, Building A-204',
             
-            'session4Date': 'November 17, 2025',
+            'session4Date': 'November 17, 2024',
             'session4Time': '9:30 AM - 11:30 AM',
             'session4Location': 'Xi\'an Jiaotong University, Building B-102',
             
-            'session5Date': 'November 24, 2025',
+            'session5Date': 'November 24, 2024',
             'session5Time': '10:00 AM - 12:00 PM',
             'session5Location': 'Online',
             
-            'session6Date': 'December 1, 2025',
+            'session6Date': 'December 1, 2024',
             'session6Time': '9:30 AM - 11:30 AM',
             'session6Location': 'Online',
             
@@ -95,27 +95,27 @@ document.addEventListener('DOMContentLoaded', function() {
             'session5Topic': '神经网络初始化的影响',
             'session6Topic': '理解扩散模型',
             // 时间和地点
-            'session1Date': '2025年10月13日',
+            'session1Date': '2024年10月13日',
             'session1Time': '上午9:30 - 11:30',
             'session1Location': '西安交通大学',
             
-            'session2Date': '2025年10月20日',
+            'session2Date': '2024年10月20日',
             'session2Time': '上午9:30 - 11:30',
             'session2Location': '西安交通大学 主C-206',
             
-            'session3Date': '2025年10月27日',
+            'session3Date': '2024年10月27日',
             'session3Time': '上午9:30 - 11:30',
             'session3Location': '西安交通大学 主A-204',
             
-            'session4Date': '2025年11月17日',
+            'session4Date': '2024年11月17日',
             'session4Time': '上午9:30 - 11:30',
             'session4Location': '西安交通大学 主B-102',
             
-            'session5Date': '2025年11月24日',
+            'session5Date': '2024年11月24日',
             'session5Time': '上午10:00 - 12:00',
             'session5Location': '线上',
             
-            'session6Date': '2025年12月1日',
+            'session6Date': '2024年12月1日',
             'session6Time': '上午9:30 - 11:30',
             'session6Location': '线上',
             
