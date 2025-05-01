@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'session4Topic': 'Transformers and Beyond',
             'session5Topic': 'Neural Network Initialization',
             'session6Topic': 'Understanding Diffusion Models',
+            'session7Topic': 'PAC Learning Framework',
             // 时间和地点
             'session1Date': 'October 13, 2024',
             'session1Time': '9:30 AM - 11:30 AM',
@@ -49,6 +50,10 @@ document.addEventListener('DOMContentLoaded', function() {
             'session6Time': '9:30 AM - 11:30 AM',
             'session6Location': 'Online',
             
+            'session7Date': 'May 1, 2025',
+            'session7Time': 'Online',
+            'session7Location': 'Online',
+            
             // 演讲主题
             'session1Topic1': 'Introduction to Deep Learning — From Zero to Multilayer Neural Networks',
             'session1Topic2': 'Common Optimization Algorithms',
@@ -72,7 +77,14 @@ document.addEventListener('DOMContentLoaded', function() {
             
             'session6Topic1': 'Understanding Diffusion Models',
             'session6Topic1Desc': 'This sharing will deeply explore and derive the mathematical principles of diffusion models from multiple perspectives, focusing on analyzing how DDPM (Denoising Diffusion Probabilistic Models), Score-Matching, Stochastic Differential Equations (SDE), Ordinary Differential Equations (ODE), and other methods help us understand the intrinsic mechanisms of the diffusion process. At the end of the sharing, we will explore physical equations related to diffusion models, especially the Fokker-Planck equation and Langevin equation, analyzing how they describe the diffusion process and its relationship with thermodynamic systems in physics. Through these equations, we will further deepen our understanding of the theoretical foundation of the diffusion process. We will also discuss the latest research directions of diffusion models, as well as questions about diffusion.',
-            
+
+            'session7Topic': 'PAC Learning Framework',
+            'session7Date': 'May 1, 2025',
+            'session7Time': 'Online',
+            'session7Location': 'Online',
+            'session7Topic1': 'PAC Learning Framework',
+            'session7Topic1Desc': 'A comprehensive introduction to the PAC learning framework and its extensions, starting from basic concepts such as generalization error, empirical error, and PAC learnability. Through specific examples, it analyzes sample complexity and algorithm performance, and discusses Bayesian error rate, noise, and the decomposition of estimation error and approximation error in agnostic PAC learning. It further introduces optimization strategies such as structural risk minimization and regularization methods, aiming to provide systematic guidance for understanding the theoretical basis and practical application of learning algorithms.',
+
             // 页脚
             'footerText': '© 2025 Deep Learning Seminar. Last Updated: April 6, 2025'
         },
@@ -94,6 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'session4Topic': 'Transformer及其发展',
             'session5Topic': '神经网络初始化的影响',
             'session6Topic': '理解扩散模型',
+            'session7Topic': 'PAC学习框架',
             // 时间和地点
             'session1Date': '2024年10月13日',
             'session1Time': '上午9:30 - 11:30',
@@ -119,6 +132,10 @@ document.addEventListener('DOMContentLoaded', function() {
             'session6Time': '上午9:30 - 11:30',
             'session6Location': '线上',
             
+            'session7Date': '2025年5月1日',
+            'session7Time': '线上',
+            'session7Location': '线上',
+            
             // 演讲主题
             'session1Topic1': '深度学习入门简介——从零到多层神经网络',
             'session1Topic2': '几种常见的优化算法',
@@ -143,6 +160,9 @@ document.addEventListener('DOMContentLoaded', function() {
             'session6Topic1': '理解扩散模型',
             'session6Topic1Desc': '本次分享将从多个角度深入探讨并推导扩散模型的数学原理，重点分析DDPM（Denoising Diffusion Probabilistic Models）、分数匹配（Score-Matching）、随机微分方程（SDE）、常微分方程（ODE）等方法如何帮助我们理解扩散过程的内在机制。分享的最后，我们将探讨与扩散模型相关的物理方程，特别是Fokker-Planck方程和Langevin方程，分析它们如何描述扩散过程及其与物理学中热力学系统的关系。通过这些方程，我们将进一步加深对扩散过程理论基础的理解。我们还将讨论扩散模型的最新研究方向，以及关于diffusion的疑惑。',
             
+            'session7Topic1': 'PAC学习框架',
+            'session7Topic1Desc': '全面介绍了PAC学习框架及其扩展，从基础概念如泛化误差、经验误差、PAC可学习性出发，通过具体示例分析了样本复杂度和算法性能，并探讨了不可知PAC学习中的贝叶斯错误率、噪声以及估计误差与逼近误差的分解，进一步介绍了结构风险最小化和正则化方法等优化策略，旨在为理解学习算法的理论基础和实际应用提供系统的指导。',
+
             // 页脚
             'footerText': '© 2025 深度学习研讨班. 最后更新：2025年4月6日'
         }
@@ -165,15 +185,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         
         // 更新每个研讨会的内容
-        for (let i = 1; i <= 6; i++) {
+        for (let i = 1; i <= 7; i++) {
             // 会话标题
             const sessionTitle = document.querySelector(`#session${i} .session-title`);
-            if (lang === 'zh') {
-                sessionTitle.innerHTML = `${translations[lang]['session']}${i}期: <span class="session-topic">${translations[lang][`session${i}Topic`]}</span>`;
-            } else {
-                sessionTitle.innerHTML = `Session ${i}: <span class="session-topic">${translations[lang][`session${i}Topic`]}</span>`;
+            if (sessionTitle) {
+                if (lang === 'zh') {
+                    sessionTitle.innerHTML = `${translations[lang]['session']}${i}期: <span class="session-topic">${translations[lang][`session${i}Topic`]}</span>`;
+                } else {
+                    sessionTitle.innerHTML = `Session ${i}: <span class="session-topic">${translations[lang][`session${i}Topic`]}</span>`;
+                }
             }
-            
+
             // 日期、时间和地点
             const dateText = document.querySelector(`#session${i} .date-text`);
             const timeText = document.querySelector(`#session${i} .time-text`);
