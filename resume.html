@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的简历</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrolling on the body itself */
+        }
+        .resume-container {
+            width: 100%;
+            height: 100vh; /* Use full viewport height */
+            border: none; /* Optional: remove iframe border */
+        }
+    </style>
+</head>
+<body>
+    <iframe 
+        class="resume-container" 
+        src="/简历.pdf" 
+        title="我的简历 PDF">
+        <p>您的浏览器不支持内联 PDF。请 <a href="/简历.pdf">点击这里下载 PDF 文件</a>。</p>
+    </iframe>
+</body>
+</html>
